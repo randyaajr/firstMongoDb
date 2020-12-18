@@ -112,7 +112,9 @@ def delete_record():
                 print(k.capitalize() + ": " + v.capitalize())
 
         print("")
-        confirmation = input("Is this the document you want to delete?\nY or N > ")
+        confirmation = input(
+            "Is this the document you want to delete?\nY or N > "
+            )
         print("")
 
         if confirmation.lower() == "y":
